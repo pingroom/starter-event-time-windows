@@ -1,0 +1,19 @@
+{
+  "traceId": "sensor-arrivals",
+  "title": "Sensor arrival replay",
+  "scope": "Fixture counters from one ordered source",
+  "windowSize": 10,
+  "profiles": [
+    { "id": "fast", "label": "Fast", "lag": 0 },
+    { "id": "balanced", "label": "Balanced", "lag": 5 },
+    { "id": "patient", "label": "Patient", "lag": 15 }
+  ],
+  "events": [
+    { "id": "e1", "time": 2, "key": "east", "value": 8 },
+    { "id": "e2", "time": 12, "key": "east", "value": 3 },
+    { "id": "e3", "time": 8, "key": "east", "value": -2 },
+    { "id": "e4", "time": 25, "key": "west", "value": 6 },
+    { "id": "e5", "time": 19, "key": "east", "value": 4 },
+    { "id": "e6", "time": 21, "key": "west", "value": -1 }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+/.pingroom/
+/.windows/
+/config.json
+/trace.json
+.DS_Store
+*.log
